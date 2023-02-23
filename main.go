@@ -116,5 +116,5 @@ func main() {
 	router.POST("/items", addItem)
 	router.PATCH("/items/:id", updateItem)
 	router.DELETE("/items/:id", deleteItem)
-	router.Run("localhost:4000")
+	router.Run()
 }
